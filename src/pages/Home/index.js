@@ -1,9 +1,12 @@
-function App() {
+import Header from "../../components/Header/index";
+
+function Home() {
   return (
-    <div className="App">
-      مرحباً
+    <div className="home">
+      <Header />
+      مرحبا بالصفحة الرئيسية
     </div>
   );
 }
 
-export default App;
+export default Home;

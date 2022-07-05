@@ -1,0 +1,28 @@
+footer {
+  position: relative;
+  top: 100%;
+  right: 0;
+  width: 100%;
+}
+
+footer .top-footer-section {
+  background-color: #3df29e;
+}
+
+footer .top-footer-section h4 {
+  box-shadow: 1px 1px 15px green;
+}
+
+footer .top-footer-section p {
+  line-height: 2;
+  text-align: justify;
+}
+
+footer .top-footer-section ul {
+  list-style-type: square;
+  list-style-position: inside;
+}
+
+footer .top-footer-section ul li {
+  text-indent: 5px;
+}
