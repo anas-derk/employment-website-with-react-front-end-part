@@ -49,7 +49,7 @@ function Header() {
                             </li>
                             <li className="nav-item">
                                 <i className="fas fa-sign-in-alt"></i>
-                                <Link to="/login">
+                                <Link to="/sign-up">
                                     إشتراك
                                 </Link>
                             </li>
