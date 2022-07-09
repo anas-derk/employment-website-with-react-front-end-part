@@ -29,7 +29,7 @@ function Header() {
                             </li>
                             <li className="nav-item">
                                 <i className="fas fa-folder-open"></i>
-                                <Link to="/" >أصناف العروض</Link>
+                                <Link to="/" >عروض العمل</Link>
                             </li>
                             <li className="nav-item">
                                 <i className="fas fa-info-circle"></i>
