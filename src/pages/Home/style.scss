@@ -1,9 +1,8 @@
 .home {
-    .website-description-section {
+    .website-description {
         height: calc(100vh - 58px);
         background-image: url('../../assets/Search-Jobs-Apply-Online.webp');
         background-size: cover;
-
         .overlay {
             position: absolute;
             left: 0;
@@ -11,17 +10,38 @@
             width: 100%;
             height: calc(100% - 58px);
             background-color: rgba(0, 0, 0, .7);
-
             .top-search-box {
                 position: absolute;
                 top: 0;
                 right: 0;
                 width: 100%;
-
+                .top-search-form {
+                    position: relative;
+                    .normal-search-btn {
+                        position: absolute;
+                        left: 155px;
+                        top: 50%;
+                        transform: translateY(-50%);
+                    }
+                }
                 .advanced-search-btn {
                     position: absolute;
                     left: 130px;
                     top: 10px;
+                }
+            }
+        }
+    }
+    .how-website-work{
+        background-color: #EEE;
+        .use-learn-box{
+            border: 3px dashed green;
+            border-radius: 5px;
+            .manipulation-steps-list-with-website{
+                list-style-position: inside;
+                li{
+                    text-align: justify;
+                    line-height: 2;
                 }
             }
         }
