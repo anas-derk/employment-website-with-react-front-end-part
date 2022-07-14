@@ -54,3 +54,26 @@
   text-align: justify;
   line-height: 2;
 }
+
+.home .why-are-we-the-best .feature-box {
+  transition: .5s;
+}
+
+.home .why-are-we-the-best .feature-box h3 {
+  font-size: 40px;
+  width: 60px;
+  height: 60px;
+  background-color: #FFF;
+  color: #000;
+  line-height: 60px;
+  transition: .5s;
+}
+
+.home .why-are-we-the-best .feature-box:hover {
+  padding: 20px;
+  box-shadow: 1px 1px 25px yellow;
+}
+
+.home .why-are-we-the-best .feature-box:hover h3 {
+  transform: rotate(360deg) scale(1.2, 1.2);
+}

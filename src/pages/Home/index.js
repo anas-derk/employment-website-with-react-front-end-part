@@ -76,7 +76,7 @@ function Home() {
                     <Link to="/sign-up">إشتراك الآن .</Link>
                   </li>
                   <li className="mb-3">اكتب المسمى الوظيفي الذي تريد البحث عنه في حقل الإدخال أعلاه ثمّ اضغط على زر بحث عادي أو اضغط على زر بحث متقدم إذا أردت البحث بتفاصيل أكثر .</li>
-                  <li className="mb-3">إذا كنت قد ضغطت زر البحث المتقدم ، حدد التفاصيل للمسمى الوظيفي الذي تريد البحث عنه ثمّ اضغط زر البحث ، ثمّ انتظر ريثما يتم جلب النتائج المطابقة .</li>
+                  <li className="mb-3">إذا كنت قد ضغطت على زر البحث المتقدم ، حدد التفاصيل للمسمى الوظيفي الذي تريد البحث عنه ثمّ اضغط زر البحث ، ثمّ انتظر ريثما يتم جلب النتائج المطابقة .</li>
                   <li className="mb-3">إذا كنت قد ضغطت زر البحث العادي ، عندها انتظر قليلاً ريثما يتم جلب النتائج المطابقة .</li>
                   <li className="mb-3">في حال كانت هنالك وظائف مطابقة للمعلومات التي حددتها ، قم  باختيار الوظيفة التي تريد التقدم لها .</li>
                   <li className="mb-3">الآن أنت جاهز للتقدم للوظيفة ، اضغط على زر التقديم الآن  </li>
@@ -121,6 +121,85 @@ function Home() {
         {/* End Container */}
       </section>
       {/* End How Website Work Section */}
+      {/* Start Why Are We The Best Section */}
+      <section className="why-are-we-the-best pt-5 pb-5 text-center bg-success text-white">
+        {/* Start Container */}
+        <div className="container">
+          <h3 className="mb-5">لماذا نحن الخيار الأفضل لك ؟</h3>
+          {/* Start Grid System */}
+          <div className="row">
+            {/* Start Column */}
+            <div className="col-md-6">
+              {/* Start Feature Box */}
+              <div className="feature-box mb-5">
+                <h3 className="mx-auto mb-4 rounded-circle">1</h3>
+                <h4 className="mb-4">إبحث عن الموظف الذي تريده بسهولة</h4>
+                <p>من خلال نظام الإقتراحات الخاص بنا سوف يظهر لديك الأشخاص المناسبين للشاغر الوظيفي الذي تنشره .</p>
+              </div>
+              {/* End Feature Box */}
+            </div>
+            {/* End Column */}
+            {/* Start Column */}
+            <div className="col-md-6">
+              {/* Start Feature Box */}
+              <div className="feature-box mb-5">
+                <h3 className="mx-auto mb-4 rounded-circle">2</h3>
+                <h4 className="mb-4">إبحث عن الوظيفة التي تريدها بسهولة</h4>
+                <p>من خلال نظام الإقتراحات الخاص بنا سوف تظهر لديك الوظائف المناسبة لك بناءً على معلوماتك الشخصية .</p>
+              </div>
+              {/* End Feature Box */}
+            </div>
+            {/* End Column */}
+            {/* Start Column */}
+            <div className="col-md-6">
+              {/* Start Feature Box */}
+              <div className="feature-box mb-5">
+                <h3 className="mx-auto mb-4 rounded-circle">3</h3>
+                <h4 className="mb-4">غير ملزم أبداً بإنشاء بريد الكتروني</h4>
+                <p>إذا لم تكن من هواة استخدام البريد الالكتروني أو لا تعلم كيف تستخدمه  من أجل إرسال سيرتك الذاتية لصاحب العمل ، لا بأس فأنت لست بحاجة لاستخدام أي شيء خارج موقع التوظيف الخاص بنا ، لأن عملية التوظيف كاملة من الألف للياء تتم من خلال موقعنا بدءاً من إيجاد الوظيفة المناسبة لك وانتهاءً بحصولك على الوظيفة المطلوبة .</p>
+              </div>
+              {/* End Feature Box */}
+            </div>
+            {/* End Column */}
+            {/* Start Column */}
+            <div className="col-md-6">
+              {/* Start Feature Box */}
+              <div className="feature-box mb-5">
+                <h3 className="mx-auto mb-4 rounded-circle">4</h3>
+                <h4 className="mb-4">أسلوب الحصول على الوظيفة بسيط للغاية</h4>
+                <p>إذا كنت تبحث عن عمل فليس من الضرورة أن تنشئ سيرة ذاتية ( CV ) بصيغة PDF وأن تضطر لتعديلها كل مرة عندما تتعلم مهارة جديدة وذلك بفضل نظامنا الخاص الذي يمكنك من أن ترسل طلب توظيف لصاحب العمل وعندها يمكنه الدخول لصفحتك الشخصية ورؤية معلوماتك الكاملة ، والذي يمكنك أيضاً من التواصل المباشر معه بسهولة .</p>
+              </div>
+              {/* End Feature Box */}
+            </div>
+            {/* End Column */}
+            {/* Start Column */}
+            <div className="col-md-6">
+              {/* Start Feature Box */}
+              <div className="feature-box">
+                <h3 className="mx-auto mb-4 rounded-circle">5</h3>
+                <h4 className="mb-4">أجور رمزية لقاء خدماتنا</h4>
+                <p>إذا كنت مستثمراً أو شركة فلن تدفع إلا أجور رمزية لقاء خدمة نشر الوظيفة لدينا .</p>
+              </div>
+              {/* End Feature Box */}
+            </div>
+            {/* End Column */}
+            {/* Start Column */}
+            <div className="col-md-6">
+              {/* Start Feature Box */}
+              <div className="feature-box">
+                <h3 className="mx-auto mb-4 rounded-circle">6</h3>
+                <h4 className="mb-4">إمكانية التواصل بين الموظف وصاحب العمل وعمل مقابلات العمل</h4>
+                <p>من خلال خدمة التواصل الاجتماعي ، يمكن لصاحب العمل والباحث عن فرصة عمل التواصل معاً بسهولة .</p>
+              </div>
+              {/* End Feature Box */}
+            </div>
+            {/* End Column */}
+          </div>
+          {/* End Grid System */}
+        </div>
+        {/* End Container */}
+      </section>
+      {/* End Why Are We The Best Section */}
     </div>
   );
 }
